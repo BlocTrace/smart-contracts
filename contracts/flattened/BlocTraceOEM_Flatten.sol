@@ -93,12 +93,7 @@ interface IAccessControl {
 
 
 // File @openzeppelin/contracts/utils/Context.sol@v4.9.2
-
-// SPDX-License-Identifier: MIT
-// OpenZeppelin Contracts v4.4.1 (utils/Context.sol)
-
-pragma solidity ^0.8.0;
-
+ 
 /**
  * @dev Provides information about the current execution context, including the
  * sender of the transaction and its data. While these are generally available
@@ -121,11 +116,8 @@ abstract contract Context {
 
 
 // File @openzeppelin/contracts/utils/introspection/IERC165.sol@v4.9.2
+ 
 
-// SPDX-License-Identifier: MIT
-// OpenZeppelin Contracts v4.4.1 (utils/introspection/IERC165.sol)
-
-pragma solidity ^0.8.0;
 
 /**
  * @dev Interface of the ERC165 standard, as defined in the
@@ -150,12 +142,7 @@ interface IERC165 {
 
 
 // File @openzeppelin/contracts/utils/introspection/ERC165.sol@v4.9.2
-
-// SPDX-License-Identifier: MIT
-// OpenZeppelin Contracts v4.4.1 (utils/introspection/ERC165.sol)
-
-pragma solidity ^0.8.0;
-
+ 
 /**
  * @dev Implementation of the {IERC165} interface.
  *
@@ -181,11 +168,7 @@ abstract contract ERC165 is IERC165 {
 
 
 // File @openzeppelin/contracts/utils/math/Math.sol@v4.9.2
-
-// SPDX-License-Identifier: MIT
-// OpenZeppelin Contracts (last updated v4.9.0) (utils/math/Math.sol)
-
-pragma solidity ^0.8.0;
+ 
 
 /**
  * @dev Standard math utilities missing in the Solidity language.
@@ -524,11 +507,7 @@ library Math {
 
 
 // File @openzeppelin/contracts/utils/math/SignedMath.sol@v4.9.2
-
-// SPDX-License-Identifier: MIT
-// OpenZeppelin Contracts (last updated v4.8.0) (utils/math/SignedMath.sol)
-
-pragma solidity ^0.8.0;
+ 
 
 /**
  * @dev Standard signed math utilities missing in the Solidity language.
@@ -571,11 +550,7 @@ library SignedMath {
 
 
 // File @openzeppelin/contracts/utils/Strings.sol@v4.9.2
-
-// SPDX-License-Identifier: MIT
-// OpenZeppelin Contracts (last updated v4.9.0) (utils/Strings.sol)
-
-pragma solidity ^0.8.0;
+ 
 
 
 /**
@@ -658,12 +633,7 @@ library Strings {
 
 
 // File @openzeppelin/contracts/access/AccessControl.sol@v4.9.2
-
-// SPDX-License-Identifier: MIT
-// OpenZeppelin Contracts (last updated v4.9.0) (access/AccessControl.sol)
-
-pragma solidity ^0.8.0;
-
+ 
 
 
 
@@ -908,20 +878,11 @@ abstract contract AccessControl is Context, IAccessControl, ERC165 {
 
 
 // File @openzeppelin/contracts/interfaces/IERC165.sol@v4.9.2
-
-// SPDX-License-Identifier: MIT
-// OpenZeppelin Contracts v4.4.1 (interfaces/IERC165.sol)
-
-pragma solidity ^0.8.0;
+ 
 
 
 // File @openzeppelin/contracts/token/ERC721/IERC721.sol@v4.9.2
-
-// SPDX-License-Identifier: MIT
-// OpenZeppelin Contracts (last updated v4.9.0) (token/ERC721/IERC721.sol)
-
-pragma solidity ^0.8.0;
-
+ 
 /**
  * @dev Required interface of an ERC721 compliant contract.
  */
@@ -1050,19 +1011,7 @@ interface IERC721 is IERC165 {
 
 
 // File @openzeppelin/contracts/interfaces/IERC721.sol@v4.9.2
-
-// SPDX-License-Identifier: MIT
-// OpenZeppelin Contracts v4.4.1 (interfaces/IERC721.sol)
-
-pragma solidity ^0.8.0;
-
-
-// File @openzeppelin/contracts/interfaces/IERC4906.sol@v4.9.2
-
-// SPDX-License-Identifier: MIT
-// OpenZeppelin Contracts (last updated v4.9.0) (interfaces/IERC4906.sol)
-
-pragma solidity ^0.8.0;
+ 
 
 
 /// @title EIP-721 Metadata Update Extension
@@ -1080,12 +1029,7 @@ interface IERC4906 is IERC165, IERC721 {
 
 
 // File @openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol@v4.9.2
-
-// SPDX-License-Identifier: MIT
-// OpenZeppelin Contracts v4.4.1 (token/ERC721/extensions/IERC721Metadata.sol)
-
-pragma solidity ^0.8.0;
-
+ 
 /**
  * @title ERC-721 Non-Fungible Token Standard, optional metadata extension
  * @dev See https://eips.ethereum.org/EIPS/eip-721
@@ -1109,12 +1053,7 @@ interface IERC721Metadata is IERC721 {
 
 
 // File @openzeppelin/contracts/token/ERC721/IERC721Receiver.sol@v4.9.2
-
-// SPDX-License-Identifier: MIT
-// OpenZeppelin Contracts (last updated v4.6.0) (token/ERC721/IERC721Receiver.sol)
-
-pragma solidity ^0.8.0;
-
+ 
 /**
  * @title ERC721 token receiver interface
  * @dev Interface for any contract that wants to support safeTransfers
@@ -1140,11 +1079,7 @@ interface IERC721Receiver {
 
 
 // File @openzeppelin/contracts/utils/Address.sol@v4.9.2
-
-// SPDX-License-Identifier: MIT
-// OpenZeppelin Contracts (last updated v4.9.0) (utils/Address.sol)
-
-pragma solidity ^0.8.1;
+ 
 
 /**
  * @dev Collection of functions related to the address type
@@ -1388,12 +1323,7 @@ library Address {
 
 
 // File @openzeppelin/contracts/token/ERC721/ERC721.sol@v4.9.2
-
-// SPDX-License-Identifier: MIT
-// OpenZeppelin Contracts (last updated v4.9.0) (token/ERC721/ERC721.sol)
-
-pragma solidity ^0.8.0;
-
+ 
 
 
 
@@ -1856,11 +1786,7 @@ contract ERC721 is Context, ERC165, IERC721, IERC721Metadata {
 
 
 // File @openzeppelin/contracts/token/ERC721/extensions/ERC721Burnable.sol@v4.9.2
-
-// SPDX-License-Identifier: MIT
-// OpenZeppelin Contracts (last updated v4.8.0) (token/ERC721/extensions/ERC721Burnable.sol)
-
-pragma solidity ^0.8.0;
+ 
 
 
 /**
@@ -1884,11 +1810,7 @@ abstract contract ERC721Burnable is Context, ERC721 {
 
 
 // File @openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol@v4.9.2
-
-// SPDX-License-Identifier: MIT
-// OpenZeppelin Contracts (last updated v4.9.0) (token/ERC721/extensions/ERC721URIStorage.sol)
-
-pragma solidity ^0.8.0;
+ 
 
 
 /**
@@ -1960,12 +1882,7 @@ abstract contract ERC721URIStorage is IERC4906, ERC721 {
 
 
 // File @openzeppelin/contracts/utils/Counters.sol@v4.9.2
-
-// SPDX-License-Identifier: MIT
-// OpenZeppelin Contracts v4.4.1 (utils/Counters.sol)
-
-pragma solidity ^0.8.0;
-
+ 
 /**
  * @title Counters
  * @author Matt Condon (@shrugs)
@@ -2007,9 +1924,7 @@ library Counters {
 
 
 // File contracts/BlocTraceOEM.sol
-
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.9;
+ 
 
 
 
